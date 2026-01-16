@@ -5,6 +5,7 @@ sap.ui.define([
 ], function (jQuery, PluginViewController, JSONModel) {
 	"use strict";
 
+    //added comments
 	return PluginViewController.extend("custom.shoubii.plugins.testplugin.testplugin.controller.MainView", {
 		onInit: function () {
 			PluginViewController.prototype.onInit.apply(this, arguments);
