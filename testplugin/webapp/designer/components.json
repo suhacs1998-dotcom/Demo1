@@ -1,0 +1,15 @@
+{
+	"components": [
+		{
+			"id": "testplugin",
+			"type": "VIEW_PLUGIN",
+			"allowMultipleInstances": false,
+			"name": "custom.shoubii.plugins.testplugin.testplugin",
+			"propertyEditor": "custom.shoubii.plugins.testplugin.testplugin.builder.PropertyEditor",
+			"i18n": "custom.shoubii.plugins.testplugin.testplugin.i18n.i18n",
+            "productionProcessEnabled": true,
+           "productionProcessTitle": "testplugin",
+			"supportedPodTypes": ["WORK_CENTER","OPERATION","ORDER"]
+		}   
+	]
+}
